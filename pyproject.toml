@@ -1,0 +1,19 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[project]
+authors = [
+  {name = "Coiled", email = "info@coiled.io"},
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+]
+dependencies = []
+description = "Package to assist with package sync integration tests"
+keywords = ["one", "two"]
+license = {text = "MIT"}
+name = "coiled-git-package"
+readme = "README.rst"
+requires-python = ">=3.7"
+version = "0.1.97"
